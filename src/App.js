@@ -13,7 +13,7 @@ const App = () => {
       <div className="body">
         <div className="content">
           <h1 className="header-text">Start Working Remote Today</h1>
-          <img className="picture" src="https://www.realsimple.com/thmb/FY7HYd6A6iRERlEOJzht8Vs8_GE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/work-from-outdoors-tips-2000-1c4ee7641fd84a42a7878dcb2a1b62fe.jpg" alt="logo" />
+          <img className="user" src="https://www.realsimple.com/thmb/FY7HYd6A6iRERlEOJzht8Vs8_GE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/work-from-outdoors-tips-2000-1c4ee7641fd84a42a7878dcb2a1b62fe.jpg" alt="logo" />
           <p className="paragraph">
             Whether you're looking for a local opportunity or a chance to work for a company on the other side of the country, Start A Career Today has something for everyone. No more commuting, no more office politics, and no more stress – just fulfilling work that fits around your life.
           </p>
