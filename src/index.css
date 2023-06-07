@@ -1,55 +1,102 @@
 .container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  text-align: center;
+  padding-top: 20px;
 }
 
 .header {
-  text-align: center;
   margin-bottom: 20px;
+  
 }
+.header-text {
+  font-family: Neue Arial, Helvetica, sans-serif;
+  padding: 20px;
 
-.logo {
-  max-width: 200px;
 }
-
-.body {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
-
-.content {
-  display: flex;
-  align-items: center;
-  margin-right: 20px;
-}
-
 .picture {
-  max-width: 300px;
-  margin-right: 20px;
+  width: 100%;
+  max-width: 400px; /* Adjust the max-width as needed */
+  height: auto;
+  padding: 20px;
+  border-radius: 10px; /* Add curved edges */
+}
+
+.header-text {
+  margin-bottom: 20px;
 }
 
 .paragraph {
-  flex-grow: 1;
+  font-family: Neue Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
 }
 
 .button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: green;
+    font-family: Neue Arial, Helvetica, sans-serif;
+  background-color: rgb(26, 179, 26);
   color: white;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
   text-decoration: none;
-  border-radius: 4px;
 }
 
 .footer {
-  text-align: center;
+  /* ...existing styles... */
+  margin-top: auto;
+  text-decoration:  none;
+  padding: 10px;
 }
 
-.footer a {
-  margin-right: 10px;
+.blue-bar {
+  background-color: blue;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.blue-bar-text {
+  color: white;
+  font-family: Neue Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.blue-section {
+  
+  padding-top: 20%;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 50px;
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.blue-section .logo {
+  width: 100%;
+  max-width: 200px; /* Adjust the max-width as needed */
+  height: auto;
+  margin: 10px;
+}
+
+.blue-section .button {
+  background-color: white;
+  color: blue;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
   text-decoration: none;
-  color: black;
+  font-family: Neue Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
