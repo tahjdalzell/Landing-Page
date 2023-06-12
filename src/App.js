@@ -1,10 +1,13 @@
-import React from 'react';
+import React, {useEffect}from 'react';
 import './App.css';
 
+      
 const App = () => {
+  
   return (
     <div className="container">
       <header className="header">
+	
         <img className="logo" src="https://minion-dev.s3.amazonaws.com/assets/themes/start_a_career/img/start-a-career-blue-logo-desktop.svg" alt="Logo" />
       </header>
       <div className="blue-bar">
